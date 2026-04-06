@@ -17,9 +17,9 @@ git clone https://github.com/BulldawgHacks/tmux-logger.git
 cd tmux-logger
 
 # Copy files to home directory
-cp tmux_logger.py ~/.tmux_logger.py
-cp tmux_logger_init.zsh ~/.tmux_logger_init.zsh
-cp tmux_logger_utils.sh ~/.tmux_logger_utils.sh
+cp .tmux_logger.py ~/.tmux_logger.py
+cp .tmux_logger_init.zsh ~/.tmux_logger_init.zsh
+cp .tmux_logger_utils.sh ~/.tmux_logger_utils.sh
 
 # Add to ~/.zshrc
 cat >> ~/.zshrc << 'EOF'
